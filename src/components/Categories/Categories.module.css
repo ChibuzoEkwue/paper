@@ -1,0 +1,25 @@
+.cat {
+    margin-top: 60px;
+}
+
+.cat h3 {
+    font-size: 1.8rem;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+
+.catlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+.catlist span {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: max-content;
+    background-color: rgba(128, 128, 128, 0.555);
+}
